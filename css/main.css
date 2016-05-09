@@ -1,0 +1,45 @@
+/*Main*/
+
+* {
+  box-sizing: border-box;
+  color: darkgrey;
+}
+
+header {
+  padding: 2em;
+  text-align: center;
+}
+
+#gallerySearch {
+  width: 460px;
+  height: 2em;
+  border-style: solid;
+  border-color: lightgrey;
+  border-radius: .5em;
+}
+
+.gallery {
+  display: flex;
+  max-width: 980px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 2.5em;
+  margin: auto;
+}
+
+.gallery img {
+  height: 200px;
+  width: 200px;
+  padding-bottom: 2em;
+}
+
+input[type="text"] {
+  padding: 1em;
+  font-style: italic;
+}
+
+/*Lightbox*/
+
+.lb-nav a.lb-next, .lb-nav a.lb-prev {
+  opacity: 1;
+}
