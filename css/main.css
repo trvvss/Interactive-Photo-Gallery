@@ -3,19 +3,22 @@
 * {
   box-sizing: border-box;
   color: #A9A9A9;
+  font-style: italic;
 }
 
 header {
+  display: flex;
   padding: 2em;
-  text-align: center;
+  justify-content: center;
 }
 
 #gallerySearch {
-  width: 460px;
+  width: 40vw;
   height: 2em;
   border-style: solid;
-  border-color: lightgrey;
   border-radius: .5em;
+  border-color: #A9A9A9;
+  padding: 5px;
 }
 
 .gallery {
@@ -31,11 +34,6 @@ header {
   height: 200px;
   width: 200px;
   padding-bottom: 2em;
-}
-
-input[type="text"] {
-  padding: 1em;
-  font-style: italic;
 }
 
 /*Lightbox*/
